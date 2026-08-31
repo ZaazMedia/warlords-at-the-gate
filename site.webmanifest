@@ -1,0 +1,15 @@
+{
+  "name": "Warlords at the Gate: Tower Defense",
+  "short_name": "Warlords at the Gate",
+  "description": "Official website for the mixed-reality tabletop tower defense game.",
+  "icons": [
+    {
+      "src": "assets/images/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#151515",
+  "background_color": "#111213",
+  "display": "browser"
+}
