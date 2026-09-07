@@ -35,23 +35,27 @@
     <header class="legal-heading">
       <p class="eyebrow">Legal</p>
       <h1>Privacy Policy</h1>
-      <p>Effective and last updated: August 31, 2026</p>
+      <p>Last updated: September 7, 2026</p>
     </header>
 
     <div class="legal-summary">
       <strong>Plain-language summary</strong>
-      <p>The game has no ads, developer account, behavioral analytics, or in-app purchases. Progress, preferences, board placement, and optional diagnostics stay on your device unless you deliberately share a diagnostic file with support.</p>
+      <p>The game has no ads, developer account, or in-app purchases. Saves, board placement and optional diagnostic log files stay on your device. A future update introduces optional gameplay and technical reporting through GameAnalytics. It starts off and requires a separate choice from a player aged 16 or older. You can play without sharing, and stop sharing at any time.</p>
     </div>
 
     <article class="legal-copy">
-      <h2>1. Scope</h2>
+      <h2>1. Scope and developer</h2>
       <p>This Privacy Policy applies to the game <em>Warlords at the Gate: Tower Defense</em> (the "Game") and this official website (the "Website"). It explains what information is processed when you use either service.</p>
+      <p>BlueOrbit is the developer responsible for the Game information described here. For this processing, we act as the data controller. Contact us at <a href="mailto:blue0orbit@gmail.com">blue0orbit@gmail.com</a> for privacy questions, security reports, or requests about your information.</p>
+      <p><strong>Which version you use matters.</strong> Versions distributed before the optional analytics update do not send GameAnalytics reports. The optional reporting described below applies only to a version that offers the in-game analytics choice and only after you enable it. This notice does not turn on reporting in an existing installation or collect earlier gameplay retroactively.</p>
 
-      <h2>2. Information the developer does not collect automatically</h2>
-      <p>The Game does not include developer-operated accounts, advertising, behavioral analytics, profiling, location tracking, or marketing trackers. The developer does not receive your voice, contacts, advertising identifier, device serial number, room imagery, hand-joint data, or precise room geometry.</p>
+      <h2>2. Information we do not collect through analytics</h2>
+      <p>The Game has no developer-operated accounts, advertising, advertising trackers, or personalized advertising. Our analytics does not receive your name, email address, store-account identifier, purchase receipt, payment details, contacts, voice, advertising identifier, device serial number, room imagery, hand-joint data, tracking poses, spatial anchors, or precise room geometry. We do not collect GPS location or match your analytics identity across different stores.</p>
+      <p>We do not sell your personal information or use it for targeted advertising. We send only defined gameplay and technical fields, rather than arbitrary text, complete save files, or diagnostic logs.</p>
 
       <h2>3. Information stored locally by the Game</h2>
-      <p>Campaign progress, medals, settings, preferences, and tabletop placement information are stored locally on your device. This information is used only to operate the Game and restore your chosen setup. It is not automatically transmitted to the developer.</p>
+      <p>Campaign progress, medals, settings, preferences, and tabletop placement information are stored locally on your device to operate the Game and restore your chosen setup. Your save files and board-placement coordinates are not uploaded. If you enable analytics, the separate gameplay summaries described in section 6 may be sent.</p>
+      <p>In a version with analytics, we also store your privacy choice locally, including its date, the notice version, and whether you confirmed eligibility. If you enable sharing, a separate local file contains a random analytics identifier, session count, and a session-status marker. These records are separate from campaign progress.</p>
       <p>You can remove local information by using available in-game reset controls or by deleting the Game and its local data through your device. Removing the Game may permanently remove local progress.</p>
 
       <h2>4. Mixed-reality and input data</h2>
@@ -60,34 +64,70 @@
       <h2>5. Optional diagnostic logs</h2>
       <p>Diagnostic logging is disabled by default and may be enabled manually in Options. When enabled, bounded local log files may contain the application version, general platform category, level and wave events, gameplay outcomes, and performance counters.</p>
       <p>Diagnostic logs do not include room imagery, room geometry, hand joints, voice, contacts, advertising identifiers, or device serial numbers. The Game does not upload these logs. The developer receives a log only if you deliberately send it when requesting support.</p>
+      <p>The local diagnostic toggle is separate from online analytics. Enabling local logs does not authorize online sharing, and enabling analytics does not upload those files.</p>
 
-      <h2>6. Store and platform services</h2>
+      <h2>6. Optional gameplay and technical reporting</h2>
+      <p>In an analytics-enabled version, the Game first asks whether you are aged 16 or older and then shows a separate notice describing sharing. Confirming your age group does not enable analytics. Reporting begins only after you explicitly choose to allow it. No exact birth date is collected. We rely on your consent for this optional reporting.</p>
+      <p>If you allow sharing, the Game sends the following to GameAnalytics to help us understand whether players can get into the game, improve gameplay and balance, and investigate reliability and performance:</p>
+      <ul>
+        <li>a randomly generated application-installation identifier, session identifiers and counts, event times, app/build version, store and release type;</li>
+        <li>a general device category, supported headset model where recognized, operating-system platform and version;</li>
+        <li>events such as reaching the menu, starting a game, loading a level, encountering the access screen, or choosing Retry, without store responses, account identifiers or authentication credentials;</li>
+        <li>campaign or Skirmish mode, level number, difficulty or role, and whether an attempt was completed, lost or abandoned;</li>
+        <li>session and active-playtime summaries, excluding pauses and background or focus loss reported to the Game;</li>
+        <li>summaries of game-engine frame times, slow frames and engine memory, plus a limited set of known error categories; and</li>
+        <li>supported Android exit/crash information described in section 7.</li>
+      </ul>
+      <p>The random identifier lets the service relate sessions from the same consenting installation. This is <strong>pseudonymous information, not anonymous information</strong>. GameAnalytics also receives your IP address when the Game connects and may derive an approximate country from it. This is not GPS or precise location tracking.</p>
+      <p>The Game uses a limited connection to GameAnalytics' collection service. It does not install an advertising or attribution SDK, upload screenshots or recordings, or send free-text error messages and script logs automatically. The measurements are summaries of game-engine behavior, not a recording of your surroundings or a guarantee that every device problem can be diagnosed.</p>
+
+      <h2>7. Crash and interrupted-session information</h2>
+      <p>On supported Android versions, the Game can read this application's recent operating-system exit records after you have enabled reporting. It may send a limited reason such as a crash, an app-not-responding event, low memory, or another operating-system termination, together with the affected build when available.</p>
+      <p>For supported native crashes, the report may also contain a small number of filtered technical frames: the library filename, library build identifier, and relative code offset. The Game does not upload the raw crash dump, absolute file paths or memory addresses, raw system logs, script stack traces, room data, or account information.</p>
+      <p>These reports may be sent the next time you open the Game while sharing is still enabled. Only eligible recent exits from the current consent period are considered; reports from before you gave consent are excluded. Availability depends on the operating system and device. On desktop, reporting is limited to supported game-error categories and session status; an interrupted session alone is not treated as proof of a crash.</p>
+
+      <h2>8. Your analytics choice and deletion requests</h2>
+      <p>Choosing <strong>Keep analytics off</strong> leaves the complete Game available. You may review or change your choice through <strong>Options &rarr; Privacy &amp; Analytics</strong> (the label is localized). Choosing <strong>Stop sharing</strong> stops future analytics requests, cancels pending transmission, clears unsent analytics, and removes the local analytics identifier. The Game retains the minimum local choice record needed to remember that sharing is off. This does not erase your game progress.</p>
+      <p>Withdrawal cannot recall information already delivered to GameAnalytics and is not a server-side deletion request. <strong>Before stopping sharing or removing the Game, keep the privacy reference displayed in the privacy settings if you want us to locate earlier reports.</strong> For access or deletion, email <a href="mailto:blue0orbit@gmail.com">blue0orbit@gmail.com</a> with that reference and the store/build if known. The reference identifies analytics records; it is not a password or a store account.</p>
+      <p>We will use the minimum information needed to verify and handle the request, and ask GameAnalytics to act on records it processes for us where applicable. We will explain the request's status and any lawful limitations. Removing an app, resetting an identifier, or sending a request does not itself prove that provider records have been deleted. If the reference has been lost, contact us; we may be unable to identify your records without it.</p>
+      <p>If you later enable sharing again, a new random identifier is created. Previous reports are not reattached to it. A material change to the analytics provider, purpose or data collected will require an updated notice and a new choice before the changed reporting begins.</p>
+
+      <h2>9. GameAnalytics and international processing</h2>
+      <p>GameAnalytics ApS and its affiliates provide the analytics service and process the reports on our behalf under their <a href="https://www.gameanalytics.com/trust/eu-data-processing-addendum">Data Processing Addendum</a>. Their published processing arrangements identify cloud/database providers including AWS, Google Cloud and Imply. Information may be processed in Europe and the United States, including US cloud infrastructure, with applicable contractual safeguards such as EU Standard Contractual Clauses and the UK transfer addendum.</p>
+      <p>Under its <a href="https://www.gameanalytics.com/trust/terms">terms</a>, GameAnalytics may also use aggregated or de-identified information for benchmarks, service improvements and model development. We do not enable advertising integrations, cross-store identity matching, or third-party marketing through this reporting. You can request information about the applicable safeguards through our privacy contact.</p>
+
+      <h2>10. Store and platform services</h2>
       <p>PICO, Meta, Steam, or another store provider may process purchase, download, entitlement, account, device, achievement, or payment information under that provider's own privacy policy. The developer does not operate those store systems and does not receive your complete payment details.</p>
       <p>If optional platform features are enabled in a future Game update, this Policy will be updated before the developer begins receiving or remotely processing any additional information. Developer-operated cloud saving is not part of the current release.</p>
 
-      <h2>7. Website hosting</h2>
+      <h2>11. Website hosting</h2>
       <p>The Website is a static GitHub Pages site. It does not use a contact form, advertising, developer-operated analytics, or non-essential cookies. GitHub states that a visitor's IP address is logged and stored for security purposes when a GitHub Pages site is visited. GitHub processes that information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
 
-      <h2>8. Information you choose to provide</h2>
-      <p>If you contact support, the developer may receive the information you choose to include, such as your email address, message, screenshots, or an attached diagnostic file. It is used to answer the request, investigate the issue, maintain necessary support records, and meet legal obligations. Do not include passwords, payment information, room imagery, or other sensitive information in a support request.</p>
+      <h2>12. Information you choose to provide</h2>
+      <p>If you contact support, the developer may receive the information you choose to include, such as your email address, message, screenshots, an analytics privacy reference, or an attached diagnostic file. It is used to answer the request, investigate the issue, maintain necessary support records, and meet legal obligations. Where applicable, we rely on our legitimate interest in providing support and protecting the service, or on legal obligations, for that processing. Do not include passwords, payment information, room imagery, or other sensitive information in a support request.</p>
 
-      <h2>9. Children</h2>
-      <p>The Game does not knowingly collect personal information from children. The Game has no social features, public profiles, user-generated content, or direct messaging. A parent or guardian who believes a child has voluntarily sent personal information to support may request its deletion through the public support contact on the storefront where the Game was obtained.</p>
+      <h2>13. Younger players</h2>
+      <p>Optional online analytics is available only to players who confirm they are aged 16 or older and then consent. Sharing stays off for younger players or when eligibility is unknown. This is our rule for optional analytics; it is separate from the Game's content rating and each platform's rules about who may use a headset or the Game. We do not ask children to provide a parent's email address to enable analytics.</p>
+      <p>The Game has no social features, public profiles, user-generated content, or direct messaging. A parent or guardian who believes a child has sent personal information to us may contact <a href="mailto:blue0orbit@gmail.com">blue0orbit@gmail.com</a> to request review or deletion.</p>
 
-      <h2>10. Retention and security</h2>
-      <p>Local Game information remains on your device until it is reset, deleted, or removed through platform controls. Voluntary support communications are retained only as reasonably necessary to respond, prevent abuse, maintain support history, or comply with law. Reasonable safeguards are used, but no storage or transmission method can be guaranteed completely secure.</p>
+      <h2>14. Retention and security</h2>
+      <p>Local saves remain until reset or deleted through Game/device controls. A local privacy-choice record remains to remember your decision. The analytics identifier and unsent reports are cleared when you stop sharing. Unsent analytics has a bounded in-memory queue; queued events older than one hour are discarded before transmission. The Game does not keep a disk queue of events for later upload.</p>
+      <p>GameAnalytics' published Data Processing Addendum lists one month for raw and annotated data, one year for player warehouse data, and up to 18 months for player lookups used to calculate retention. Available dashboard detail can diminish sooner. Aggregated or de-identified information that no longer identifies you may remain for the provider's permitted purposes. Applicable legal retention and completed individual deletion requests may affect these periods. The provider's separate children's retention policy is not a promise that all adult analytics is deleted after 12 months.</p>
+      <p>Voluntary support communications and necessary records of privacy requests are retained only as reasonably necessary to respond, resolve the issue, maintain needed support history, establish or defend legal claims, or comply with law. Operating-system crash records are separately managed by the device platform; turning our analytics off does not delete the operating system's own records.</p>
+      <p>Analytics is sent over encrypted HTTPS connections. We limit the fields collected and access to the analytics account, and use reasonable safeguards. No storage or transmission method can be guaranteed completely secure.</p>
 
-      <h2>11. Your choices and rights</h2>
-      <p>You control optional diagnostic logging and whether any diagnostic file is shared. Depending on your location, you may have rights relating to personal information you voluntarily send, including access, correction, deletion, restriction, or objection. Store-account and payment requests should be directed to the relevant platform provider.</p>
+      <h2>15. Your rights</h2>
+      <p>Depending on your location and the circumstances, you may have rights to information, access, correction, deletion, restriction, portability, or objection concerning your personal information. You can withdraw analytics consent at any time without affecting the lawfulness of processing before withdrawal. You may also complain to your local data-protection authority.</p>
+      <p>Use <a href="mailto:blue0orbit@gmail.com">blue0orbit@gmail.com</a> to exercise rights concerning information we process. We will respond within the applicable legal time limits and explain any extension or limitation. Store-account, payment and platform-service requests should be directed to the relevant provider.</p>
 
-      <h2>12. International use</h2>
-      <p>GitHub and platform providers may process information in countries other than your own under their respective policies and legal safeguards. The developer does not independently transfer local gameplay, tracking, or room information to another country.</p>
+      <h2>16. Other international processing</h2>
+      <p>Support communications, GitHub hosting and platform services may involve processing in countries other than your own under the relevant providers' arrangements. The optional analytics transfers are described in section 9. Local-only saves and room/input information are not transferred to GameAnalytics.</p>
 
-      <h2>13. Changes to this Policy</h2>
+      <h2>17. Changes to this Policy</h2>
       <p>This Policy may be updated when the Game, Website, or legal requirements change. The effective date above will be revised, and material changes will be communicated through the Website, storefront, or Game update where appropriate.</p>
 
-      <h2>14. Contact</h2>
-      <p>For privacy questions or deletion requests concerning information voluntarily sent to the developer, use the public support contact shown on the storefront where you obtained the Game. Requests concerning a PICO, Meta, Steam, GitHub, or payment account must be sent to that provider.</p>
+      <h2>18. Contact</h2>
+      <p>For privacy questions, data requests, or security reports concerning the Game, contact BlueOrbit at <a href="mailto:blue0orbit@gmail.com">blue0orbit@gmail.com</a>. Requests concerning a PICO, Meta, Steam, GitHub, or payment account should be sent to that provider.</p>
     </article>
   </main>
 
